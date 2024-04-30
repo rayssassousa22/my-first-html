@@ -8,10 +8,14 @@
         <title>Formulário para Contato</title>
     </head>
     <body>
-        <form autocomplete="off">
+        <form autocomplete="on" method="get">
             <label>Nome:</label> <input type="text" name="name"><br>
             <label>Email:</label> <input type="email" name="email"><br>
             <label>Descrição:</label> <input type="text" name="description"><br>
+            <label>Escolha seu preferido:</label> <input type="checkbox" name="animal[]" value="gato"> gato <br>
+            <input type="checkbox" name="animal[]" value="cachorrro"> cachorro <br>
+            <input type="checkbox" name="animal[]" value="ave"> ave <br>
+            <input type="checkbox" name="animal[]" value="cobra"> cobra <br>
             <button type="submit">Enviar</button>
         </form>
     </body>
