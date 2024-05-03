@@ -28,3 +28,9 @@ p {
     background-color: lightblue;
     color: darkblue;
 }
+
+#receitasPopulares {
+    font-size: 25px;
+    background-color: lightsalmon;
+    color: red;
+}
