@@ -1,0 +1,10 @@
+QUESTÕES DE ACESSIBILIDADE
+
+<i> - deixa o texto com valor de itálico
+<b> deixa o texto em negrito
+<u> - deixa um texto com underline
+<strong> deixa o texto em negrito porém tem um maior valor semântico
+<mark> - marca um parte do texto como se fosse um marca texto, puramente semântico
+<sup> - valor semântico deixa o texto acima da linha de escrita, ex:ao quadrado
+<sub> - valor semântico deixa o texto abaixo da linha de escrita, ex:logaritmo
+<blockquote> - deixa um texto como se fosse uma citação, tem valor puramente semântico
