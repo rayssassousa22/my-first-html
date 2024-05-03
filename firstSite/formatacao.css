@@ -29,7 +29,13 @@ p {
     color: darkblue;
 }
 
-#receitasPopulares, .menuMaisBuscados {
+#receitasPopulares {
+    font-size: 25px;
+    background-color: lightsalmon;
+    color: red;
+}
+
+.menuMaisBuscados {
     font-size: 25px;
     background-color: lightsalmon;
     color: red;
