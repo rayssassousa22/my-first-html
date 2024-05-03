@@ -5,11 +5,14 @@ h1 {
 }
 
 #indiceMenuPrincipal {
-    text-align: right;
     font-size: 25px;
     color:blue;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
+}
+
+p {
+    font-size:20px;
 }
