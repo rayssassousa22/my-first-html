@@ -8,3 +8,8 @@ QUESTÕES DE ACESSIBILIDADE
 <sup> - valor semântico deixa o texto acima da linha de escrita, ex:ao quadrado
 <sub> - valor semântico deixa o texto abaixo da linha de escrita, ex:logaritmo
 <blockquote> - deixa um texto como se fosse uma citação, tem valor puramente semântico
+
+
+<div> - separa a página em "blocos" como por exemplo menu, cabeçalho, texto escrita
+é usada para estruturação do site
+<span> - também só tem valor semântico para uso de CSS 
