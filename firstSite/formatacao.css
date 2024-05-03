@@ -16,3 +16,15 @@ h2 {
 p {
     font-size:20px;
 }
+
+#backToTop {
+    text-align: center;
+    color:blue;
+}
+
+#contactPage{
+    text-align: center;
+    font-size: 45px;
+    background-color: lightblue;
+    color: darkblue;
+}
