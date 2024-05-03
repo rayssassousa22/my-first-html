@@ -5,7 +5,7 @@ h1 {
 }
 
 #indiceMenuPrincipal {
-    text-align: right;
-    font-size: 10px;
+    align-items: right;
+    font-size: 35px;
     color:blue;
 }
