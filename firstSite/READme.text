@@ -15,6 +15,6 @@ QUESTÕES DE ACESSIBILIDADE
 <span> - também só tem valor semântico para uso de CSS 
 <fieldset> - define um campo rodeado por bordas
     <legend> - define a legenda do fieldset
-<video> - uma tag para adicionar vídeos na página
+<video> - uma tag para adicionar vídeos na página QUE ESTEJAM SALVOS NO COMPUTADOR
     <source> - a tag que define o source/link daquele video na tag video
-    
+<iframe> - cria uma página dentro da sua página
