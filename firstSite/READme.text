@@ -17,4 +17,4 @@ QUESTÕES DE ACESSIBILIDADE
     <legend> - define a legenda do fieldset
 <video> - uma tag para adicionar vídeos na página QUE ESTEJAM SALVOS NO COMPUTADOR
     <source> - a tag que define o source/link daquele video na tag video
-<iframe> - cria uma página dentro da sua página
+<iframe> - cria uma página dentro da sua página, abre videos, imagens, outras páginas etc
