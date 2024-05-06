@@ -8,7 +8,7 @@
         <title>Log In Page</title>
         <style>
             fieldset {
-                border-top-left-radius: 10px;
+                border-radius: 10px 0;
                 border-color: blue;
                 margin-top: 5px;
             }
@@ -22,9 +22,9 @@
         <fielset>
             <legend>Dados Pessoais</legend>
             <div>
-                <label>Nome Completo: </label> <input type="text" name="nome"><br>
-                <label>Email: </label><input type="email" name="email"><br>
-                <label>Endereço: </label> <input type="text" name="endereco"><br>
+                <label>Nome Completo: </label> <input type="text" name="nome"><br><br>
+                <label>Email: </label><input type="email" name="email"><br><br>
+                <label>Endereço: </label> <input type="text" name="endereco"><br><br>
                 <label>Cidade: </label> 
                 <select name="estado">
                     <option selected value="">Selecione um estado abaixo...</option>
@@ -32,11 +32,11 @@
                     <option value="minasGerais">Minas Gerais</option>
                     <option value="rioDeJaneiro">Rio de Janeiro</option>
                     <option value="saoPaulo">São Paulo</option>
-                </select><br>
-                <label>Telefone: </label> <input type="number" name="telefone"><br>
-                <label>Senha: </label> <input type="password" name="senha"><br>
+                </select><br><br>
+                <label>Telefone: </label> <input type="number" name="telefone"><br><br>
+                <label>Senha: </label> <input type="password" name="senha"><br><br>
             </div>
-        </fielset>
+        </fielset><br><br>
 
         <fieldset>
             <legend>Dados Bancários</legend>
@@ -45,7 +45,7 @@
                 <label>Agência: </label><input type="number">
                 <label>Conta: </label><input type="number">
             </div>
-        </fieldset>
+        </fieldset><br><br>
 
         <button type="submit">Enviar</button>
     </body>
