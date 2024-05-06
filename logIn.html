@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log In Page</title>
+    </head>
+    <body>
+        <h1>Formulário de Inscrição</h1>
+
+        <h2>Preencha seus dados abaixo</h2>
+
+        <fielset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label>Nome Completo: </label> <input type="text" name="nome">
+                <label>Email: </label><input type="email" name="email">
+                <label>Endereço: </label> <input type="text" name="endereco">
+                <label>Cidade: </label> 
+                <select name="estado">
+                    <option selected value="">Selecione um estado abaixo...</option>
+                    <option value="espiritoSanto">Espírito Santo</option>
+                    <option value="minasGerais">Minas Gerais</option>
+                    <option value="rioDeJaneiro">Rio de Janeiro</option>
+                    <option value="saoPaulo">São Paulo</option>
+                </select>
+                <label>Telefone: </label> <input type="tel" name="telefone">
+                <label>Senha: </label> <input type="password" name="senha">
+            </div>
+        </fielset>
+
+        <fieldset>
+            <legend>Dados Bancários</legend>
+            <div>
+                <label>Banco: </label><input type="text">
+                <label>Agência: </label><input type="number">
+                <label>Conta: </label><input type="number">
+            </div>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </body>
+</html>
