@@ -13,3 +13,8 @@ QUESTÕES DE ACESSIBILIDADE
 <div> - separa a página em "blocos" como por exemplo menu, cabeçalho, texto escrita
 é usada para estruturação do site
 <span> - também só tem valor semântico para uso de CSS 
+<fieldset> - define um campo rodeado por bordas
+    <legend> - define a legenda do fieldset
+<video> - uma tag para adicionar vídeos na página
+    <source> - a tag que define o source/link daquele video na tag video
+    
