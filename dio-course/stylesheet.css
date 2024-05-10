@@ -1,0 +1,23 @@
+table {
+    -webkit-box-shadow: 23px 21px 28px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 23px 21px 28px -6px rgba(0,0,0,0.75);
+    box-shadow: 23px 21px 28px -6px rgba(0,0,0,0.75);
+}
+
+table thead th {
+    background-color: forestgreen;
+    color:white;
+}
+
+table tfoot {
+    background-color: grey;
+}
+
+table tr:nth-child(even){
+    background-color:rgb(228, 148, 30);
+}
+
+table tr:hover td {
+    background-color: grey;
+    cursor:pointer;
+}

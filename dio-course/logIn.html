@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log In Page</title>
+        <style>
+            fieldset {
+                border-radius: 10px 0;
+                border-color: blue;
+                margin-top: 5px;
+            }
+
+            legend{
+                font-weight: bold;
+                font-size: 30px;
+                color: darkgoldenrod;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Formulário de Inscrição</h1>
+
+        <h2>Preencha seus dados abaixo</h2>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label>Nome Completo: </label> <input type="text" name="nome"><br><br>
+                <label>Email: </label><input type="email" name="email"><br><br>
+                <label>Endereço: </label> <input type="text" name="endereco"><br><br>
+                <label>Cidade: </label> 
+                <select name="estado">
+                    <option selected value="">Selecione um estado abaixo...</option>
+                    <option value="espiritoSanto">Espírito Santo</option>
+                    <option value="minasGerais">Minas Gerais</option>
+                    <option value="rioDeJaneiro">Rio de Janeiro</option>
+                    <option value="saoPaulo">São Paulo</option>
+                </select><br><br>
+                <label>Telefone: </label> <input type="number" name="telefone"><br><br>
+                <label>Senha: </label> <input type="password" name="senha"><br><br>
+            </div>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>Dados Bancários</legend>
+            <div>
+                <label>Banco: </label><input type="text">
+                <label>Agência: </label><input type="number">
+                <label>Conta: </label><input type="number">
+            </div>
+        </fieldset><br><br>
+
+        <img title="Banner de Bootcamp" src="cursoNuvem.jpg" alt="logo do bootcamp de Nuvem AWS da DIO" height="100"><br><br>
+
+        <video controls width="400">
+            <source src="video.mp4">
+        </video><br><br>
+
+        <button type="submit">Enviar</button>
+    </body>
+</html>

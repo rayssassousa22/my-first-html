@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário para Contato</title>
+    </head>
+    <body>
+        <form autocomplete="on" method="get">
+            <label>Nome:</label> <input type="text" name="name"><br>
+            <label>Email:</label> <input type="email" name="email"><br>
+            <label>Descrição:</label> <textarea name="mensagem">Escreva Aqui...</textarea><br>
+            <label>Escolha seu preferido:</label> <input type="checkbox" name="animal[]" value="gato"> gato <br>
+            <input type="checkbox" name="animal[]" value="cachorrro"> cachorro <br>
+            <input type="checkbox" name="animal[]" value="ave"> ave <br>
+            <input type="checkbox" name="animal[]" value="cobra"> cobra <br>
+            <label>Concorda com o tratamento de dados</label> <input type="radio" name="tratamentoDados" value="sim"> Sim <br>
+            <input type="radio" name="tratamentoDados" value="nao"> Não <br>
+            <select name="cargo">
+                <option value="">Selecione um abaixo...</option>
+                <option value="relacoesInternas">Relações Internas</option>
+                <option value="relacoesExternas">Relações Externas</option>
+                <option value="decolando">Decolando</option>
+                <option value="englishForAll">English for All</option>
+                <option value="cursoSpeaking">Curso Speaking</option>
+                <option value="midiasSociais">Mídias Sociais</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
