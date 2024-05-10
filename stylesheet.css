@@ -7,7 +7,7 @@ table tfoot {
     background-color: grey;
 }
 
-table td {
+table tbody td {
     align-items: center;
 }
 
